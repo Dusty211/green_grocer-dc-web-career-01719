@@ -45,7 +45,7 @@ def apply_coupons(cart, coupons)
         else 
           return_cart.merge!({"#{key} W/COUPON" => {:price => coupon[:cost], :clearance => value[:clearance], :count => 1}})
         end
-        return_cart[key][:count] = return_cart[key][:count] - coupon[:num]
+        return_cart[key][:count] -= coupon[:num]
       end
     end
   end
