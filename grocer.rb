@@ -6,7 +6,7 @@ cart = [
   {"AVOCADO" => {:price => 3.0, :clearance => true }},
   {"KALE"    => {:price => 3.0, :clearance => false}}
 ]
-=end
+
 coupons = [{:item => "AVOCADO", :num => 2, :cost => 5.0}]
 
 cart = {
@@ -14,6 +14,8 @@ cart = {
   "KALE"         => {:price => 3.00, :clearance => false, :count => 3}
   "SOY MILK"     => {:price => 4.50, :clearance => true,  :count => 1}
 }
+
+=end
 
 def consolidate_cart(cart)
   consolidated_cart = {}
