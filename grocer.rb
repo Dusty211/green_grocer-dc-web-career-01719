@@ -1,5 +1,5 @@
 require 'pry'
-
+=begin
 cart = [
   {"AVOCADO" => {:price => 3.0, :clearance => true }},
   {"AVOCADO" => {:price => 3.0, :clearance => true }},
@@ -8,7 +8,7 @@ cart = [
 ]
 
 coupons = [{:item => "AVOCADO", :num => 2, :cost => 5.0}]
-
+=end
 cart = {
   "PEANUTBUTTER" => {:price => 3.00, :clearance => true,  :count => 2},
   "KALE"         => {:price => 3.00, :clearance => false, :count => 3}
