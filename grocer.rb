@@ -1,13 +1,13 @@
 require 'pry'
 
-#cart = [
+cart = [
   {"AVOCADO" => {:price => 3.0, :clearance => true }},
   {"AVOCADO" => {:price => 3.0, :clearance => true }},
   {"AVOCADO" => {:price => 3.0, :clearance => true }},
   {"KALE"    => {:price => 3.0, :clearance => false}}
 ]
 
-#coupons = [{:item => "AVOCADO", :num => 2, :cost => 5.0}]
+coupons = [{:item => "AVOCADO", :num => 2, :cost => 5.0}]
 
 cart = {
   "PEANUTBUTTER" => {:price => 3.00, :clearance => true,  :count => 2},
